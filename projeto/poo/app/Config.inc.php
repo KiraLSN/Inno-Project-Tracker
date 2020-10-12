@@ -9,7 +9,7 @@ define("SITE", "http://localhost/sispic/projeto/");
 
 define("PEGASUS", HOME . "pegasus/");
 define("PAGINAS", HOME . "paginas");
-define("SITENOME", "Sistema do Programa de Iniciação Científica - SISPIC");
+define("SITENOME", "Sistema de Controle e Inclusão de Best Practices e Sugestões");
 define("DESCRICAO", "");
 
 define("NOMECLIENTE", "");
@@ -20,7 +20,7 @@ define("SITEDESCR", "");
 define("HOST", "localhost");
 define("USER", "root");
 define("PASS", "");
-define("DBSA", "base");
+define("DBSA", "bpsis_db");
 
 //SERVIDOR DE E-MAIL
 define("MAILUSER", "fabio@casadossites.com");
