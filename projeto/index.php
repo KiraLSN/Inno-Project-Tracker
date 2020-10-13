@@ -43,6 +43,7 @@ $sessao = new Session;
     <script type="text/javascript" src="<?= HOME; ?>poo/js_code.js"></script>
 </head>
 
+
 <body <?php
    if ($pagina == 'home'): echo 'style="background-image: url(' . HOME . 'imagens_site/bg.jpg);  background-size: 100% 100%; background-position: top left; background-repeat: no-repeat; background-attachment: fixed;"';
    else: endif;
@@ -83,6 +84,9 @@ $sessao = new Session;
           //  endif;
          endif;
          ?>
+
+
+
     <!--
          ===========================================================================================================================================
          MENU LATERAL

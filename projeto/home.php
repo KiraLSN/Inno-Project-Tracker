@@ -20,7 +20,7 @@ endif;
     <!--<img src="<?//= HOME; ?>imagens_site/logo.png" title="<?//= SITENOME; ?>" alt="<?//= SITENOME; ?>"/> -->
     <div class="limpar"></div>
     <article class="box_login radius b-shadow">
-        <h1>Painel de Login</h1>
+        <h1>Faça o seu Login</h1>
         <form method="post" class="form login_entrada" name="logar">
             <p class="legenda_form">Matricula</p><!-- Mudar TOTAL PARA MATRICULA -->
             <input name="email" type="email" required placeholder="Matricula Cadastrada" style=" width: 100%" />
