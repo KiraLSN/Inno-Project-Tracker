@@ -17,7 +17,7 @@
         </div>
         <div class="box_conteudo_">
             <a href="" class="btn btn_green fl-right cadastrar" style=" width: 15%; margin-top: 0%">
-                <figure class="icon-plus6" style="font-size: 1.1em; margin-top: -0.6%; margin-right: 2%;"></figure> Cadastrar novo Projeto
+                <figure class="icon-plus6" style="font-size: 1.1em; margin-top: -0.6%; margin-right: 2%;"></figure> Cadastrar Sugestão
             </a>
             <div class="limpar"></div>
             <br>
@@ -180,42 +180,43 @@
         <figure class="icon-window-close" style="color: #fff;"></figure>
     </a>
     <div class="cadastrar_total_contetudo" style=" background: #fff; padding: 3%">
-        <h1 class="topo_modal">Cadastrar Novo Aluno</h1>
+        <h1 class="topo_modal">Cadastrar Projeto</h1>
         <form class="form_linha" method="post" name="cad_alunos">
             <div class="box box100">
                 <div class="box box33">
-                    <p class="texto_form">Nome Completo do Estudante <font color=red>*</font>
+                    <p class="texto_form">Título<font color=red>*</font>
                     </p>
-                    <input name="nome" type="text" required placeholder="Nome completo" style=" width: 100%;" />
+                    <input name="nome" type="text" required placeholder="Título do Projeto" style=" width: 100%;" />
                 </div>
                 <div class="box box33">
-                    <p class="texto_form">Curso <font color=red>*</font>
+                    <p class="texto_form">Tipo <font color=red>*</font>
                     </p>
-                    <input name="curso" type="text" required placeholder="Curso" style=" width: 100%;" />
+                    <input name="curso" type="text" required placeholder="Tipo de Projeto" style=" width: 100%;" />
                 </div>
                 <div class="box box33 no-margim">
-                    <p class="texto_form">Instituição de Ensino <font color=red>*</font>
+                    <p class="texto_form">Entrega <font color=red>*</font>
                     </p>
-                    <input name="faculdade" type="text" required placeholder="Instituição de ensino" style=" width: 100%;" />
+                    <input name="faculdade" type="text" required placeholder="Data de Entrega do Projeto" style=" width: 100%;" />
                 </div>
                 <div class="limpar"></div>
 
                 <div class="box box33">
-                    <p class="texto_form">CPF <font color=red>*</font>
+                    <p class="texto_form">Custo <font color=red>*</font>
                     </p>
-                    <input name="cpf" type="text" placeholder="CPF" autocomplete="off" style=" width: 100%;" id="mascara_cpf" />
+                    <input name="cpf" type="text" placeholder="Custo em Reais para a aplicação do Projeto" autocomplete="off" style=" width: 100%;" id="mascara_cpf" />
                 </div>
                 <div class="box box33">
-                    <p class="texto_form">Coeficiente de Rendimento(CR)<font color=red>*</font>
+                    <p class="texto_form">Retorno<font color=red>*</font>
                     </p>
-                    <input name="cr" type="text" maxlength="10" placeholder="Coeficiente de Rendimento(CR)" id="coe" style=" width: 100%;" />
+                    <input name="cr" type="text" maxlength="10" placeholder="Reotorno financeiro" id="coe" style=" width: 100%;" />
                 </div>
                 <div class="box box33 no-margim">
-                    <p class="texto_form">Tipo<font color=red>*</font>
+                    <p class="texto_form">Responsavel<font color=red>*</font>
                     </p>
                     <select class="seletipo" name="tipo" style=" width: 100%;">
-                        <option value="1">Aluno Novo</option>
-                        <option value="2">Renovação</option>
+                        <option value="1">Luciano Soares Nunes</option>
+                        <option value="2">Rafaela Rocha</option>
+                        <option value="3">Oziel Cavalcante</option>
                     </select>
                 </div>
                 <div class="limpar"></div>
