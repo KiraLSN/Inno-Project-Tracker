@@ -219,189 +219,53 @@
                         <option value="3">Oziel Cavalcante</option>
                     </select>
                 </div>
+
+                <div class="box box100">
+                    <p class="texto_form">Parecer/protocolo do Comitê de Ética (CEP) <font color=red></font>
+                    </p>
+                    <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
+                    <input id='' type="file" name="user_thumb2" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
+                </div>
+
                 <div class="limpar"></div>
 
                 <div class="forms_exta ds-none" style=" width: 100%; padding: 2%; background: #f1f1f1; border: 0.9% solid #333;"></div>
 
                 <div class="limpar"></div>
-                <!--cordenador-->
-                <div class="box box50">
-                    <h1 class="topo_modal" style=" background: #1753ea;">Cadastro do Orientador</h1>
-                    <div class="box box100">
-                        <p class="texto_form">Resumo do projeto do orientador <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
 
-                    <div class="box box100">
-                        <p class="texto_form">Parecer/protocolo do Comitê de Ética (CEP) <font color=red></font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb2" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
 
-                    <div class="box box100">
-                        <p class="texto_form">Comprovante de patrimônio Genético e de conhecimento tradicional (SISGEN)</p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb3" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Autorização pelo SISBIO de coleta de material biológico <font color=red></font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb4" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Currículo na plataforma Lattes do CNPQ <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb5" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Cadastro atualizado no banco de pesquisa da FAPEAM <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb6" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Cadastro do orientador em grupo de pesquisa do ILMD <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb7" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Declaração de participação na orientação do aluno <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb8" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-                    <div class="limpar"></div>
-                </div>
-                <!-- aluno -->
-                <div class="box box50 no-margim">
-                    <h1 class="topo_modal">Cadastro do Aluno</h1>
-                    <div class="box box100">
-                        <p class="texto_form">Projeto do aluno detalhado em .DOC ou DOCX <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb20" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Declaração de responsabilidade na orientação do aluno <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb10" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Currículo na plataforma Lattes do CNPQ <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="envio_02" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Cadastro atualizado do candidato no banco de pesquisa da FAPEAM <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb11" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-                    <div class="box box100">
-                        <p class="texto_form">Histórico escolar de graduação atualizado <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb12" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Comprovante de matrícula atualizado <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb13" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-                    <div class="box box100">
-                        <p class="texto_form">Cópia do CPF e carteira de identidade do candidato <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb14" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <!-- <div class="box box100">
-            <p class="texto_form">Excluir esse campo<font color=red>*</font>
-            </p>
-            <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                    <!--<input id='' type="file" name="user_thumb15" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-          </div> -->
-                    <div class="box box100">
-                        <p class="texto_form">Cópia do comprovante de residência do candidato <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb16" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-                    <div class="box box100">
-                        <p class="texto_form">Declaração negativa de vínculo empregatício <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb17" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-                </div>
-                <div class="limpar"></div>
-                <br>
-                <!--Co-orientado-->
-                <div class="box box100">
-                    <h1 class="topo_modal" style=" background: #9915a3;">Cadastro de Coorientador</h1>
-                    <INPUT TYPE="checkbox" NAME="cooo" VALUE="1" style=" margin-top: -0.5%; margin-right: 1%">O projeto não possui coorientador
-
-                    <div class="box box100">
-                        <p class="texto_form">Nome completo <font color=red>*</font>
-                        </p>
-                        <input name="nomecoo" type="text" placeholder="Nome completo" style=" width: 100%;" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Declaração de partipação na coautoria <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="user_thumb18" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-
-                    <div class="box box100">
-                        <p class="texto_form">Currículo lattes do coautor <font color=red>*</font>
-                        </p>
-                        <!-- <label class="label_file" for='selecao-arquivo2'>Selecionar um arquivo</label> -->
-                        <input id='' type="file" name="enviando" class="" style=" display: block; width: 100%; border: 1px solid #b1b1b1; padding: 1%" />
-                    </div>
-                </div>
-                <br>
                 <div class="limpar"></div>
             </div>
 
-            <div class="limpar"></div>
-            <div class="limpar"></div>
-            <br>
-            <INPUT TYPE="checkbox" NAME="opcao" VALUE="1" required style=" margin-top: -0.5%; margin-right: 1%"> Declaro que são verdadeiras todas as informações.
-            <p>
-                <br>Você tem certeza que deseja enviar o projeto para avaliação?
-                <br>Após a finalização e envio dos arquivos, o orientador não poderá editar e nem excluir os documentos, apenas visualizá-los.
-            </p>
+            <!-- aluno -->
+
             <div class="limpar"></div>
             <br>
-            <input type="hidden" name="id" value="<?= $usuario_['id']; ?>" />
-            <span class="carregando2 ds-none"><img src="<?= HOME; ?>imagens_fixas/carregando2.gif" /></span>
-            <button class="btn btn_green fl-left" style="font-size: 0.8em; margin-right: 1%">
-                <figure class="icon-save2" style="margin-top: -6%;"></figure> Cadastrar
-            </button>
+            <!--Co-orientado-->
+
+            <br>
             <div class="limpar"></div>
-        </form>
     </div>
+
     <div class="limpar"></div>
+    <div class="limpar"></div>
+    <br>
+    <INPUT TYPE="checkbox" NAME="opcao" VALUE="1" required style=" margin-top: -0.5%; margin-right: 1%"> Declaro que são verdadeiras todas as informações.
+    <p>
+        <br>Você tem certeza que deseja enviar o projeto para avaliação?
+        <br>Após a finalização e envio dos arquivos, o orientador não poderá editar e nem excluir os documentos, apenas visualizá-los.
+    </p>
+    <div class="limpar"></div>
+    <br>
+    <input type="hidden" name="id" value="<?= $usuario_['id']; ?>" />
+    <span class="carregando2 ds-none"><img src="<?= HOME; ?>imagens_fixas/carregando2.gif" /></span>
+    <button class="btn btn_green fl-left" style="font-size: 0.8em; margin-right: 1%">
+        <figure class="icon-save2" style="margin-top: -6%;"></figure> Cadastrar
+    </button>
+    <div class="limpar"></div>
+    </form>
+</div>
+<div class="limpar"></div>
 </div>
 
 <div class="cadastrar_total2">
@@ -410,6 +274,7 @@
     </a>
     <div class="cadastrar_total_contetudo2" style=" background: #fff; padding: 3%">
         <h1 class="topo_modal">Cadastra Co-orientadores</h1>
+
         <form class="form_linha" method="post" name="cad_coorientador">
             <div class="box box100">
                 <div class="box box100">
@@ -443,10 +308,11 @@
             </button>
             <div class="limpar"></div>
         </form>
+
     </div>
     <div class="limpar"></div>
 </div>
-
+<!-- Alterar Cadastro -->
 <div class="cadastrar_total3">
     <a href="" style="text-align: center;" data-balloon-length="small" data-balloon="Fecha" data-balloon-pos="left" class="fecha_moldura2 fecha_cadastro3">
         <figure class="icon-window-close" style="color: #fff;"></figure>
