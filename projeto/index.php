@@ -65,7 +65,9 @@ $sessao = new Session;
         location.href = "<?= HOME; ?>";
 
     </script>
+
     <?php
+    
          else:
             $usuario = new Read;
             $usuario->ExeRead('orientador', 'WHERE id=:url', "url=" . $_SESSION['usuario'] . "");
